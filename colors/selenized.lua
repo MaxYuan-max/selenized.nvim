@@ -136,7 +136,7 @@ local highlights = function(colors)
     hi['Folded']                   = { fg = none, bg = colors.bg_1, guisp = none, style = none }
     hi['ColorColumn']              = { fg = none, bg = colors.bg_2, guisp = none, style = none }
     hi['LineNr']                   = { fg = colors.dim_0, bg = colors.bg_1, guisp = none, style = none }
-    hi['CursorLineNr']             = { fg = colors.fg_1, bg = colors.bg_1, guisp = none, style = none }
+    hi['CursorLineNr']             = { fg = colors.blue, bg = colors.bg_1, guisp = none, style = none }
     hi['WinSeparator']             = { fg = colors.dim_0, bg = colors.dim_0, guisp = none, style = none }
     hi['StatusLine']               = { fg = none, bg = colors.bg_1, guisp = none, style = none }
     hi['StatusLineNC']             = { fg = none, bg = colors.bg_2, guisp = none, style = none }
