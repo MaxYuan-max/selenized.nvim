@@ -14,9 +14,9 @@ return {
         a = { fg = '#103c48', bg = '#fa5750', gui = 'bold' },
     },
     inactive = {
-        a = { fg = '#adbcbc', bg = '#103c48', gui = 'bold' },
-        b = { fg = '#adbcbc', bg = '#103c48' },
-        c = { fg = '#adbcbc', bg = '#103c48' },
+        a = { fg = '#72898f', bg = '#103c48', gui = 'bold' },
+        b = { fg = '#72898f', bg = '#103c48' },
+        c = { fg = '#72898f', bg = '#103c48' },
     },
     command = {
         a = { bg = '#dbb32d', fg = '#103c48', gui = 'bold' },
