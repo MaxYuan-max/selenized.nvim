@@ -142,7 +142,7 @@ local highlights = function(colors)
     hi['StatusLineNC']             = { fg = none, bg = colors.bg_2, guisp = none, style = none }
     hi['StatusLineTerm']           = 'StatusLine'
     hi['StatusLineTermNC']         = 'StatusLineNC'
-    hi['TabLineSel']               = { fg = colors.fg_1, bg = colors.blue, guisp = none, style = none }
+    hi['TabLineSel']               = { fg = colors.blue, bg = colors.bg_1, guisp = none, style = none }
     hi['TabLine']                  = { fg = colors.fg_0, bg = colors.bg_1, guisp = none, style = none }
     hi['TabLineFill']              = { fg = colors.fg_0, bg = colors.bg_1, guisp = none, style = none }
     hi['ToolbarButton']            = { fg = none, bg = none, guisp = none, style = 'reverse' }
