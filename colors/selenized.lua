@@ -126,6 +126,7 @@ local highlights = function(colors)
 
     hi['IncSearch']                = { fg = colors.orange, bg = none, guisp = none, style = 'reverse' }
     hi['Search']                   = { fg = colors.yellow, bg = none, guisp = none, style = 'reverse' }
+    hi['FlashCursor']              = { fg = colors.orange, bg = none, guisp = none, style = 'reverse' }
     hi['QuickFixLine']             = 'Search'
     hi['Visual']                   = { fg = none, bg = colors.bg_1, guisp = none, style = none }
     hi['MatchParen']               = { fg = colors.br_yellow, bg = colors.bg_2, guisp = none, style = 'bold' }
