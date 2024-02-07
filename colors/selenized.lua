@@ -156,6 +156,8 @@ local highlights = function(colors)
     hi['DiffChange']               = { fg = none, bg = colors.bg_1, guisp = none, style = none }
     hi['DiffDelete']               = { fg = colors.red, bg = colors.bg_1, guisp = none, style = none }
     hi['DiffText']                 = { fg = colors.bg_1, bg = colors.yellow, guisp = none, style = none }
+    hi['InclineNormal']            = { fg = colors.bg_1, bg = colors.yellow, guisp = none, style = none }
+    hi['InclineNormalNC']          = { fg = colors.bg_1, bg = colors.blue, guisp = none, style = none }
     hi['Comment']                  = { fg = colors.dim_0, bg = none, guisp = none, style = 'italic' }
     hi['Constant']                 = { fg = colors.cyan, bg = none, guisp = none, style = none }
     hi['String']                   = 'Constant'
