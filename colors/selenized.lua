@@ -165,6 +165,8 @@ local highlights = function(colors)
     hi['Boolean']                  = 'Constant'
     hi['Character']                = 'Constant'
     hi['Float']                    = 'Constant'
+    hi['DiagnosticSignWarn']       = 'Constant'
+    hi['DiagnosticSignInfo']       = 'Constant'
     hi['Identifier']               = { fg = colors.br_blue, bg = none, guisp = none, style = none }
     hi['Function']                 = 'Identifier'
     hi['Statement']                = { fg = colors.br_yellow, bg = none, guisp = none, style = none }
